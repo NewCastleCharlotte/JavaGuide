@@ -119,7 +119,7 @@ cache.put(1, "one");
 cache.put(2, "two");
 cache.put(3, "three");
 cache.put(4, "four");
-for (int i = 0; i < 4; i++) {
+for (int i = 1; i < 5; i++) {
     System.out.println(cache.get(i));
 }
 ```
